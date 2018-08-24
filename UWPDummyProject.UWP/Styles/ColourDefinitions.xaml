@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="PrimaryBrandedColour">#FF1FFF89</Color>
+    <Color x:Key="SecondaryBrandedColour">#FF5BA293</Color>
+    <Color x:Key="BrandedErrorColor">#FFFFFC00</Color>
+
+    <SolidColorBrush x:Key="PrimaryBrandedColourBrush" Color="{StaticResource PrimaryBrandedColour}"/>
+    <SolidColorBrush x:Key="SecondaryBrandedColourBrush" Color="{StaticResource SecondaryBrandedColour}"/>
+    <SolidColorBrush x:Key="BrandedErrorColorBrush" Color="{StaticResource BrandedErrorColor}"/>
+</ResourceDictionary>

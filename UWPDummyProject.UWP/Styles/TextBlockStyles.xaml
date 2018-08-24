@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Font Families-->
+    <FontFamily x:Key="PrimaryFontFamily">Segoe UI</FontFamily>
+
+    <!--Basic styles-->
+    <Style x:Key="PrimaryText" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="{StaticResource PrimaryFontFamily}"/>
+    </Style>
+
+    <Style x:Key="BoldText" TargetType="TextBlock" BasedOn="{StaticResource PrimaryText}">
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!--Large text types-->
+    <Style x:Key="LargeText" TargetType="TextBlock" BasedOn="{StaticResource PrimaryText}">
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="LargeBoldText" TargetType="TextBlock" BasedOn="{StaticResource LargeText}">
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+    
+    <!--Extra large text types-->
+    <Style x:Key="ExtraLargeText" TargetType="TextBlock" BasedOn="{StaticResource PrimaryText}">
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+</ResourceDictionary>

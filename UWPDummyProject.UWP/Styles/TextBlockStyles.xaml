@@ -15,6 +15,13 @@
         <Setter Property="FontWeight" Value="SemiBold"/>
     </Style>
 
+    <Style x:Key="FormattedTextBlockStyle"  TargetType="TextBlock" BasedOn="{StaticResource PrimaryText}">
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+    </Style>
+
     <!--Large text types-->
     <Style x:Key="LargeText" TargetType="TextBlock" BasedOn="{StaticResource PrimaryText}">
         <Setter Property="FontSize" Value="16"/>

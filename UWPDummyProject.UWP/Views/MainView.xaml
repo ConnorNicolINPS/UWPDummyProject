@@ -5,8 +5,6 @@
 
     <StackPanel>
         <TextBlock Text="This is the main view" FontSize="35" FontWeight="Bold" Foreground="Red" Margin="10,10,10,30" HorizontalAlignment="Center"/>
-        
-        <!-- add buttons to the views you are creating/testing here!-->
-        
+
     </StackPanel>
 </views:MvxWindowsPage>
